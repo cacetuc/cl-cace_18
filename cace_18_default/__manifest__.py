@@ -95,6 +95,8 @@
                 'http_enable = True',
                 'http_interface =',
                 'http_port = 8069',
+                #'gevent_port = 8092',
+                #'longpolling_port = False',
                 'limit_time_real_cron = -1',
                 'list_db = True',
                 'log_db = False',
@@ -106,7 +108,7 @@
                 'osv_memory_count_limit = False',
                 'pg_path =',
 
-                'proxy_mode = True',
+                #'proxy_mode = True',
                 'reportgz = False',
                 'screencasts =',
                 'screenshots = /tmp/odoo_tests',
@@ -129,8 +131,10 @@
 
     'port': '8089',
 
+    'longpolling_port': '8092',
+
     'git-repos': [
-        'https://github.com/pabarrientos/cl-cace_18.git',
+        'https://github.com/cacetuc/cl-cace_18.git',
     ],
 
     # list of images to use in the form 'name image-url'
