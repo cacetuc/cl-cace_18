@@ -41,8 +41,8 @@
         # You should use 2 worker threads + 1 cron thread per available CPU,
         # and 1 CPU per 10 concurent users.
         # if ommited oe will calculate workers and cron´s based on # of cpu
-                'workers = 0',
-                'max_cron_threads = 1',
+                #'workers = 0',
+                #'max_cron_threads = 1',
 
         # Number of requests a worker will process before being recycled and
         # restarted. Defaults to 8192 if ommited
@@ -93,7 +93,7 @@
                 'email_from = False',
                 'geoip_database = /usr/share/GeoIP/GeoLite2-City.mmdb',
                 'http_enable = True',
-                'http_interface =',
+                #'http_interface =',
                 'http_port = 8069',
                 #'gevent_port = 8092',
                 #'longpolling_port = False',
@@ -106,11 +106,11 @@
                 'logfile = /dev/pts/0',
                 'osv_memory_age_limit = 1.0',
                 'osv_memory_count_limit = False',
-                'pg_path =',
+                #'pg_path =',
 
                 #'proxy_mode = True',
                 'reportgz = False',
-                'screencasts =',
+                #'screencasts =',
                 'screenshots = /tmp/odoo_tests',
                 'smtp_password = False',
                 'smtp_port = 25',
@@ -119,11 +119,11 @@
                 'smtp_user = False',
                 'syslog = False',
                 'test_enable = False',
-                'test_file =',
+                #'test_file =',
                 'test_tags = None',
                 "translate_modules = ['all']",
                 'unaccent = False',
-                'upgrade_path =',
+                #'upgrade_path =',
     ],
 
     # if Enterprise it installs in a different directory than community
