@@ -19,12 +19,12 @@
 ##############################################################################
 
 {
-    'name': 'mirgor_18',
+    'name': 'cace_18',
     'version': '18.0.1.0.0',
     'category': 'Project',
-    'summary': "Customization for mirgor_18",
-    'author': "Ing. Gabriela Rivero",
-    'website': 'http://github.com/regaby/module-repo',
+    'summary': "Customization for cace_18",
+    'author': "Pablo A. Barreintos",
+    'website': 'http://github.com/pabarrientos/module-repo',
     'license': 'AGPL-3',
     'depends': ['website_sale', 'sale_management', 'stock'],
     'installable': True,
@@ -127,10 +127,10 @@
     # if Enterprise it installs in a different directory than community
     'odoo-license': 'CE',
 
-    'port': '8069',
+    'port': '8089',
 
     'git-repos': [
-        'https://github.com/regaby/cl-mirgor_18.git',
+        'https://github.com/pabarrientos/cl-cace_18.git',
     ],
 
     # list of images to use in the form 'name image-url'
