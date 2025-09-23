@@ -77,7 +77,7 @@
 
         # Comma-separated list of server-wide modules, there are modules loaded
         # automatically even if you do not create any database.
-                'server_wide_modules = "base,web,dbfilter_from_header"',
+                #'server_wide_modules = "base,web,dbfilter_from_header"',
 
         # Filter listed database REGEXP
                 'dbfilter =',
@@ -134,7 +134,7 @@
     'longpolling_port': '8092',
 
     'git-repos': [
-        'https://github.com/cacetuc/cl-cace_18.git',
+        'https://cacetuc@github.com/cacetuc/cl-cace_18.git',
 
         #OCA
         'https://github.com/OCA/helpdesk.git oca-helpdesk',
