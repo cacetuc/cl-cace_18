@@ -135,6 +135,27 @@
 
     'git-repos': [
         'https://github.com/cacetuc/cl-cace_18.git',
+
+        #OCA
+        'https://github.com/OCA/helpdesk.git oca-helpdesk',
+        'https://github.com/OCA/management-system.git oca-management-system',
+        'https://github.com/OCA/dms.git oca-dms',
+        'https://github.com/OCA/knowledge.git oca-knowledge',
+        'https://github.com/OCA/repair.git oca-repair',
+        'https://github.com/OCA/hr.git oca-hr',
+        'https://github.com/OCA/maintenance.git oca-maintenance',
+        'https://github.com/OCA/calendar.git oca-calendar',
+        'https://github.com/OCA/e-learning.git oca-e-learning',
+        'https://github.com/OCA/hr-holidays.git oca-hr-holidays',
+        'https://github.com/OCA/server-tools.git oca-server-tools',
+
+        #ADHOC
+        'https://github.com/ingadhoc/account-financial-tools.git ingadhoc-account-financial-tools',
+        'https://github.com/ingadhoc/odoo-argentina-ce.git ingadhoc-odoo-argentina-ce',
+        'https://github.com/ingadhoc/hr.git ingadhoc-hr',
+        'https://github.com/ingadhoc/miscellaneous.git ingadhoc-miscellaneous',
+        'https://github.com/ingadhoc/odoo-argentina.git ingadhoc-odoo-argentina',
+        'https://github.com/ingadhoc/account-invoicing.git ingadhoc-account-invoicing',
     ],
 
     # list of images to use in the form 'name image-url'
