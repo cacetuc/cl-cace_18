@@ -156,11 +156,13 @@
         'https://github.com/ingadhoc/miscellaneous.git ingadhoc-miscellaneous',
         'https://github.com/ingadhoc/odoo-argentina.git ingadhoc-odoo-argentina',
         'https://github.com/ingadhoc/account-invoicing.git ingadhoc-account-invoicing',
+        'https://github.com/ingadhoc/account-financial-tools.git ingadhoc-account-financial-tools',
+        'https://github.com/ingadhoc/account-payment.git ingadhoc-account-payment',
     ],
 
     # list of images to use in the form 'name image-url'
     'docker-images': [
-        'odoo regaby/odoo-ce:18.0',
+        'odoo odoo-custom:18.0',
         'postgres postgres:16.1-alpine',
     ]
 }
